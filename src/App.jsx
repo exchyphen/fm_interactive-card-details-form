@@ -103,9 +103,10 @@ function App() {
     }
 
     // check cc number format (the other numbers are set to number only)
-    if (errorStates[1] === 2 || ccNumber.length !== 20) {
-      console.log(ccNumber);
-      currErrorState[1] = 2;
+    if (ccNumber !== "") {
+      if (errorStates[1] === 2 || ccNumber.length !== 20) {
+        currErrorState[1] = 2;
+      }
     }
 
     // check exp month (1 -> 12 and fill in any blanks)
