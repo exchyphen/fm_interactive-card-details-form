@@ -1,0 +1,45 @@
+.form-container {
+    width: 300px;
+    text-transform: uppercase;
+    color: var(--very-dark-violet);
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-exp-cvc-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.cc-date-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#cc-date-month, #cc-date-year {
+    width: 4rem;
+}
+
+#cc-cvc {
+    width: 100%;
+}
+
+.input-error {
+    border: 1px solid var(--red);
+}
+
+.error-message {
+    letter-spacing: 0px;
+    text-transform: none;
+    color: var(--red);
+}

@@ -1,0 +1,32 @@
+.success-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.success-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.thanks-text {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    color: var(--very-dark-violet);
+}
+
+.confirmation-text {
+    color: var(--dark-grayish-violet);
+}
+
+.continue-button {
+    width: 100%;
+}
